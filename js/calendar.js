@@ -134,6 +134,7 @@ const populateCalendars = (calendarClassSelector, month, year) => {
         <a class="previous" href="#"><span class="control-text">Previous</span></a>
         <a class="next" href="#"><span class="control-text">Next</span></a>
       </div>
+    </div>
     `;
     // Append dates to cells
     const cells = document.querySelectorAll(`.${calendarClassSelector} .calendar-table-${index + 1} td`);
